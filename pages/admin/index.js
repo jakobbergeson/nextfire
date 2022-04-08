@@ -1,7 +1,12 @@
-export default function Page() {
+import AuthCheck from '../../components/AuthCheck';
+
+
+export default function AdminPostsPage(props) {
   return (
     <main>
-      <h1>Admin Index</h1>
+      <AuthCheck>
+
+      </AuthCheck>
     </main>
   );
 }
