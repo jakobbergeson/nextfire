@@ -73,7 +73,6 @@ function CreateNewPost() {
 
     // Imperative navigation after doc is set
     router.push(`/admin/${slug}`);
-
   };
 
   return (
